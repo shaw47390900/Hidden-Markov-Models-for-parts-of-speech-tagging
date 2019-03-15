@@ -3,7 +3,9 @@ a. [10	 points] Implement	 a	 majority-class	 baseline	 for	 the	 Brown	 corpus.
 For	 each	 word	 in	 the	 test	 set,	 assign	 the	 tag	 that	 is	 most	 frequently	
 associated	with	 that	word	in	 the	 training	corpus.		Tag	out-of-vocabulary	
 words as	NN.	Report the	overall	accuracy	of	this	baseline on	the	test	set.	
-b. [Graduate	 students	 only – 5	 points]	 design and	 implement some	
+
+ b. [Graduate	 students	 only – 5	 points]	
+ design and	 implement some	
 transformation rules to	 improve	 the	 accuracy	 of	 the	 majority-class	
 baseline. You	should	implement a	minimum	of	5	rules	and	no	more	than	
 15	rules. You	may	use	 the	 training	set	 for	 tuning.	For	example,	you	may	
