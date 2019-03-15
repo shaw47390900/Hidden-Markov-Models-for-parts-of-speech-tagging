@@ -14,18 +14,23 @@ that	would	 fix	 the	most	common	errors.	You	should	not use	 the	 test	set
 for	tuning	the	rules.	Report	the	overall	accuracy of	your	model on	the	test	
 set.	(The	submission	with	the	highest	accuracy	in	this	part	will	receive	5	
 bonus	points!)
+
 c. [25	points] Implement	an	HMM	Tagger for	Parts-of-speech	tagging.	
+
 i. You	will	need	a	 training	script	 that	reads	 the	 training	corpus and	
 calculates	 transition	 and	 output probabilities.	 Note	 that	 output	
 probabilities	for	OOV	words	will	be	zero	for	all	tags,	which	means	
 the	algorithm	will	fail	to	tag	any	sentence	that	includes	OOV	words	
 in	 the	 test	 set.	 You	 can	 decide	 how	 to	 handle	 such	 cases	 (one	
 option	is	to	set	a	fixed	small	count for	OOV	words	given	any	tag).
+
 ii. Implement	the	Viterbi	algorithm	that calculates	the	most	likely	tag	
 sequence	for	each	test	sentence given	a	trained	HMM	model	from	
 part	(i).	
+
 iii. Evaluate	 the	 performance	 of	 your	 HMM tagger	 by	 reporting	 the	
 overall	accuracy	on	the	test	set.	
+
 d. [Graduate	students	only – 10	points]	Implement	beam	search	to	speed	up	
 Viterbi	 decoding.	 Test	 your	 implementation	 with	 b=10	 and	 report	 the	
 accuracy
